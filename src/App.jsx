@@ -146,7 +146,16 @@ export default function Portfolio() {
                   Node.js
                 </span>
                 <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
+                  Express
+                </span>
+                <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
+                  Alpha Vantage API
+                </span>
+                <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
                   WebSocket
+                </span>
+                <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
+                  MongoDB
                 </span>
               </div>
               <button className="flex items-center text-[#e15921] font-semibold hover:text-[#d73f00] transition-colors">
