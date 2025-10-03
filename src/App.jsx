@@ -110,10 +110,19 @@ export default function Portfolio() {
                   Python
                 </span>
                 <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
+                  FastAPI
+                </span>
+                <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
                   Machine Learning
                 </span>
                 <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
                   React
+                </span>
+                <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
+                  Azure OpenAI
+                </span>
+                <span className="px-3 py-1 bg-[#8dd3c6] text-[#3f816c] rounded-full text-sm font-medium">
+                  PostgreSQL
                 </span>
               </div>
               <button className="flex items-center text-[#e15921] font-semibold hover:text-[#d73f00] transition-colors">
