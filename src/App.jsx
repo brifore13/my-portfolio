@@ -177,16 +177,23 @@ export default function Portfolio() {
             <div className="prose prose-lg max-w-none">
               <p className="text-[#3f816c] leading-relaxed mb-6">
                 I'm a newly graduated software engineer passionate about creating elegant, user-focused applications that solve real-world problems. My journey in tech has been driven by curiosity and a love for continuous learning.
+                Oregon State University, Bachelor of Science in Computer Science(GPA 3.92), September 2025
               </p>
               
               <p className="text-[#3f816c] leading-relaxed mb-6">
-                With a strong foundation in full-stack development and a keen interest in AI and financial technology, I bring fresh perspectives and modern solutions to every project I work on.
+                With a strong foundation in full-stack development and a keen interest in AI and financial and healthcare technology, I bring fresh perspectives and modern solutions to every project I work on.
+              </p>
+
+              <p className="text-[#3f816c] leading-relaxed mb-6">
+                In my previous life, I was a physical therapist who helped individuals problem solve to get out of pain and live full lives.
+                I still enjoy helping others and see my career transition into software as a scaling up of my technical skills and knowledge
+                that enables me to impact lives on a macroscale. 
               </p>
               
               <div className="mt-8">
                 <h3 className="text-xl font-bold text-[#3f816c] mb-4">Skills & Interests</h3>
                 <div className="flex flex-wrap gap-3">
-                  {['JavaScript', 'Python', 'React', 'Node.js', 'Machine Learning', 'UI/UX Design', 'Algorithms', 'System Design'].map((skill) => (
+                  {['JavaScript', 'Python', 'React', 'Node.js', 'Express', 'FastAPI', 'Machine Learning', 'Microservices', 'Algorithms', 'System Design'].map((skill) => (
                     <span key={skill} className="px-4 py-2 bg-[#e98b5b] text-white rounded-full font-medium">
                       {skill}
                     </span>
@@ -207,9 +214,9 @@ export default function Portfolio() {
           
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-[#d3faf7] rounded-lg p-6 text-center shadow-md hover:shadow-lg transition-shadow">
-              <div className="text-4xl mb-3">📚</div>
-              <h3 className="font-bold text-[#3f816c] mb-2">Currently Reading</h3>
-              <p className="text-[#3f816c] text-sm">Refactoring UI</p>
+              <div className="text-4xl mb-3">🐕</div>
+              <h3 className="font-bold text-[#3f816c] mb-2">Currently</h3>
+              <p className="text-[#3f816c] text-sm">Snuggling with my Dog</p>
             </div>
             
             <div className="bg-[#d3faf7] rounded-lg p-6 text-center shadow-md hover:shadow-lg transition-shadow">
@@ -221,7 +228,7 @@ export default function Portfolio() {
             <div className="bg-[#d3faf7] rounded-lg p-6 text-center shadow-md hover:shadow-lg transition-shadow">
               <div className="text-4xl mb-3">☕</div>
               <h3 className="font-bold text-[#3f816c] mb-2">Fuel of Choice</h3>
-              <p className="text-[#3f816c] text-sm">Cold Brew Coffee</p>
+              <p className="text-[#3f816c] text-sm">Too many Cappuccinos</p>
             </div>
           </div>
         </div>
@@ -238,19 +245,19 @@ export default function Portfolio() {
           </p>
           
           <div className="flex justify-center gap-6 mb-12">
-            <a href="https://github.com" className="bg-[#e15921] text-white p-4 rounded-full hover:bg-[#d73f00] transition-colors shadow-lg">
+            <a href="https://github.com/brifore13" className="bg-[#e15921] text-white p-4 rounded-full hover:bg-[#d73f00] transition-colors shadow-lg">
               <Github size={28} />
             </a>
-            <a href="https://linkedin.com" className="bg-[#e15921] text-white p-4 rounded-full hover:bg-[#d73f00] transition-colors shadow-lg">
+            <a href="https://linkedin.com/briforeman" className="bg-[#e15921] text-white p-4 rounded-full hover:bg-[#d73f00] transition-colors shadow-lg">
               <Linkedin size={28} />
             </a>
-            <a href="mailto:hello@example.com" className="bg-[#e15921] text-white p-4 rounded-full hover:bg-[#d73f00] transition-colors shadow-lg">
+            <a href="mailto:bforeman3@gmail.com" className="bg-[#e15921] text-white p-4 rounded-full hover:bg-[#d73f00] transition-colors shadow-lg">
               <Mail size={28} />
             </a>
           </div>
           
           <a 
-            href="mailto:hello@example.com"
+            href="mailto:bforeman3@gmail.com"
             className="inline-block bg-[#e15921] text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#d73f00] transition-colors shadow-xl"
           >
             Get In Touch
@@ -262,7 +269,7 @@ export default function Portfolio() {
       <footer className="bg-[#3f816c] border-t border-[#8dd3c6] py-8 px-6">
         <div className="max-w-6xl mx-auto text-center text-[#d3faf7]">
           <p className="text-sm">
-            © 2025 BF. Designed with care and Taylor Swift's color palette 🎨
+            © 2025 BF. Designed with TSwift color palette.
           </p>
         </div>
       </footer>
