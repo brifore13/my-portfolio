@@ -125,6 +125,13 @@ export default function Portfolio() {
                   PostgreSQL
                 </span>
               </div>
+              <a 
+                href="https://github.com/brifore13/WellnessAI/blob/main/README.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-[#e15921] font-semibold hover:text-[#d73f00] transition-colors">
+                Project README <ExternalLink size={16} className="ml-1" />
+              </a>
               <button className="flex items-center text-[#e15921] font-semibold hover:text-[#d73f00] transition-colors">
                 View Project <ExternalLink size={16} className="ml-1" />
               </button>
@@ -158,6 +165,13 @@ export default function Portfolio() {
                   MongoDB
                 </span>
               </div>
+              <a 
+                href="https://github.com/brifore13/TradeWise/blob/main/README.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-[#e15921] font-semibold hover:text-[#d73f00] transition-colors">
+                Project README <ExternalLink size={16} className="ml-1" />
+              </a>
               <button className="flex items-center text-[#e15921] font-semibold hover:text-[#d73f00] transition-colors">
                 View Project <ExternalLink size={16} className="ml-1" />
               </button>
