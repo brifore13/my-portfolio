@@ -193,7 +193,7 @@ export default function Portfolio() {
               <div className="mt-8">
                 <h3 className="text-xl font-bold text-[#3f816c] mb-4">Skills & Interests</h3>
                 <div className="flex flex-wrap gap-3">
-                  {['JavaScript', 'Python', 'React', 'Node.js', 'Express', 'FastAPI', 'Machine Learning', 'Microservices', 'Algorithms', 'System Design'].map((skill) => (
+                  {['JavaScript', 'Python', 'React', 'Node.js', 'Express', 'FastAPI', 'Machine Learning', 'Microservices', 'Algorithms', 'System Design', 'SQL','PostgreSQL', 'MongoDB', 'AWS', 'Azure'].map((skill) => (
                     <span key={skill} className="px-4 py-2 bg-[#e98b5b] text-white rounded-full font-medium">
                       {skill}
                     </span>
